@@ -15,11 +15,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     
   </head>
-  <body>
-    <!-- main -->
-    <main>
+  <body style="background-image: linear-gradient(to bottom, #000000, #0c090a, #151112, #1b1717, #221c1c);">
 
-      <nav class="navbar fixed-top navbar-expand-lg navbar-default ">
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg  navbar-dark navbar-default " style="background-image: linear-gradient(to bottom, #000000, #0c090a, #151112, #1b1717, #221c1c);">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><h2 class="h4 fst-italic">Los Pollos</h2>
           <p class=" fw-lighter lh-1 fst-italic" style="font-size: 8.5px;;">Let Your Feet Take You There</p></a>
@@ -54,7 +53,7 @@
               <div class="input-group">
                 <input type="text" class="form-control" placeholder="Search" style="    border-radius: 7px;">
                 <div class="input-group-btn">
-                  <button type="button" class="btn btn-primary ms-3 w-100">Search</button>
+                  <button type="button" class="btn btn-light ms-3 w-100">Search</button>
                     <i class="glyphicon glyphicon-search"></i>
                   </button>
                 </div>
@@ -76,629 +75,611 @@
         </div>
       </nav>
       <!-- carousel slide -->
-      <div id="carouselId" class="carousel slide" data-bs-ride="carousel" style="margin-top: -87px; max-height: 97vh;">
-        <ol class="carousel-indicators">
-          <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-          <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-        </ol>
-        <div class="carousel-inner " role="listbox">
-          <div class="carousel-item active">
-            <img src="/Shoes/img1.jpg" class="w-100 d-block "style="max-height: 97vh;" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Nike</h3>
-              <p>Description</p>
+        <div id="carouselId" class="carousel slide mt-5" data-bs-ride="carousel" style=" max-height: 97vh;">
+          <ol class="carousel-indicators">
+            <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+            <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+          </ol>
+          <div class="carousel-inner " role="listbox">
+            <div class="carousel-item active">
+              <img src="/Shoes/img1.jpg" class="w-100 d-block img-fluid"style="max-height: 97vh;" alt="First slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Nike</h3>
+                <p>Description</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Shoes/img3.jpg" class="w-100 img-fluid d-block "style="max-height: 97vh;" alt="Second slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Converse</h3>
+                <p>Description</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="/Shoes/img10.jpg" class="w-100 img-fluid d-block"style="max-height: 97vh;" alt="Third slide">
+              <div class="carousel-caption d-none d-md-block">
+                <h3>Nike Air</h3>
+                <p>Description</p>
+              </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="/Shoes/img3.jpg" class="w-100 d-block "style="max-height: 97vh;" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Converse</h3>
-              <p>Description</p>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img src="/Shoes/img10.jpg" class="w-100 d-block"style="max-height: 97vh;" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h3>Nike Air</h3>
-              <p>Description</p>
-            </div>
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
           </button>
-      </div>
-      
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+     
+    </header>
+    <!-- main -->
+    <main>
       <!-- offers  -->
-    <div class="container-fluid mt-3" style="    padding-left: 0;
-    padding-right: 0;">
-      <div class="card-group p-1 ">
-        <div class="card text-bg-dark col-md-6 me-1" style="border:none ;">
-          <img src="/img5.jpg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title">Trending Deals</h5>
-            <p class="card-text">Best Deals Ever</p>
-            <p class="card-text"><small>Order Fast</small></p>
+      <div class="row row-cols-1 row-cols-md-2 g-4 p-3">
+        <div class="col">
+          <div class="card text-bg-dark">
+            <img src="/Shoes/img5.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
           </div>
         </div>
-        <div class="card text-bg-dark col-md-6">
-          <img src="/img7.jpg" class="card-img" alt="...">
-          <div class="card-img-overlay">
-            <h5 class="card-title2">Amazing Offers Only For You</h5>
-            <p class="card-text2">Extra savings on most poplular brands</p>
-            <p class="card-text2"><small>Up to 30% off </small></p>
+        <div class="col">
+          <div class="card text-bg-dark">
+            <img src="/Shoes/img7.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              <p class="card-text"><small>Last updated 3 mins ago</small></p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
+      <!-- offers-end -->
+    
        
     <!-- product cards -->
-     <div class="container-fluid mt-3">
-      <div class="card-group " >
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe1">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe1 (1).jpg " alt="Card image cap">
-        </button>
-        
-        <div class="modal fade" id="modalshoe1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe1" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe1 (1).jpg" class="d-block w-100" alt="...">
+     <div class="container-fluid">
+      <!-- card -->
+     <div class="row row-cols-1 row-cols-md-4 g-4 p-3">
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe1">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe1 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe1" tabindex="-1" aria-labelledby="Modalshoe1Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe1Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe1" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe1 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe1 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe1 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe1 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe1 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe1" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe1" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
                 </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
                 </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- modal end -->
           <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
             <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
           </div>
         </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe2">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe2 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe2" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe2 (1).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe2 (4).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe2 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe2" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe2" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
-                </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal end -->
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
-          </div>
-        </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe3">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe3 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe3" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe3 (1).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe3 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe3 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe3" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe3" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
-                </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal end -->
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
-          </div>
-        </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe4">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe4 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe4" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe4 (1).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe4 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe4 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe4" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe4" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
-                </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- modal end -->
-          <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
-            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
-          </div>
-        </div>
-
       </div>
-      <div class="card-group mt-3 p-1" >
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe5">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe5 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe5" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe5 (1).jpg" class="d-block w-100" alt="...">
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe2">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe2 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe2" tabindex="-1" aria-labelledby="Modalshoe2Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe2Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe2" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe2 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe2 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe2 (4).jpg" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe5 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe5 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe2" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe2" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe5" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe5" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
                 </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
                 </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- modal end -->
           <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
             <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
           </div>
         </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe6">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe6 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe6" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe6 (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe3">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe3 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe3" tabindex="-1" aria-labelledby="Modalshoe3Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe3Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe3" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe3 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe3 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe3 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe6 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe6 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe6" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe6" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
                 </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
                 </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- modal end -->
           <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
             <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
           </div>
         </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe8">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe8 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe8" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe8" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe8 (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe4">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe4 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe4" tabindex="-1" aria-labelledby="Modalshoe4Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe4Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe4" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe4 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe4 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe4 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe8 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe8 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe4" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe4" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe8" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe8" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
                 </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
                 </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- modal end -->
           <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
             <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
           </div>
         </div>
-        <div class="card" style="border: none;">
-          <!-- Modal -->
-      <!-- Button trigger modal -->
-      <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#modalshoe9">
-          <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe9 (1).jpg" alt="Card image cap">
-        </button>
-        
-        
-        <div class="modal fade" id="modalshoe9" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog">
-            <div class="modal-content">
-              <div class="modal-header">
-                <h1 class="modal-title fs-5" id="exampleModalLabel">Nike shoes</h1>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-              </div>
-              <div class="modal-body">
-                <!-- carsouel start -->
-                <div id="carouselshoe9" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-inner">
-                    <div class="carousel-item active">
-                      <img src="Shoes/shoe9 (1).jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe5">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe5 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe5" tabindex="-1" aria-labelledby="Modalshoe5Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe5Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe5" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe5 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe5 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe5 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
                     </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe9 (2).jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                      <img src="Shoes/shoe9 (3).jpg" class="d-block w-100" alt="...">
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe5" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe5" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselshoe9" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#carouselshoe9" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
                 </div>
-                <!-- carsouel-end -->
-                <div>
-                  <ul>
-                    <li>
-                      Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
-                    </li>
-                    <li>
-                      Style: FD5088-200
-                    </li>
-                    <li>
-                      Casual flair 101: Hemp canvas,
-                    </li>
-                  </ul>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
                 </div>
-        
-              </div>
-              <div class="modal-footer">
-                <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
-                  <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
               </div>
             </div>
           </div>
-        </div>
-        <!-- modal end -->
           <div class="card-body">
-            <h4 class="card-title">Title</h4>
-            <p class="card-text">Text</p>
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
             <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
-            <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
           </div>
         </div>
-
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe6">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe6 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe6" tabindex="-1" aria-labelledby="Modalshoe6Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe6Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe6" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe6 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe6 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe6 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe6" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe6" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
+            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe8">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe8 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe8" tabindex="-1" aria-labelledby="Modalshoe8Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe8Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe8" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe8 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe8 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe8 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe8" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe8" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
+            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+          </div>
+        </div>
+      </div>
+     
+      <div class="col">
+        <div class="card h-100">
+          <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#Modalshoe9">
+            <img class="card-img-top" style="width: 18rem; " src="./Shoes/shoe9 (1).jpg" alt="Card image cap">
+          </button>
+          <div class="modal fade" id="Modalshoe9" tabindex="-1" aria-labelledby="Modalshoe9Label" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h1 class="modal-title fs-5" id="Modalshoe9Label">Nike shoes</h1>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <!-- carsouel start -->
+                  <div id="carouselControlsshoe9" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="Shoes/shoe9 (1).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe9 (2).jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="Shoes/shoe9 (3).jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControlsshoe9" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselControlsshoe9" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <!-- carsouel-end -->
+                  <div>
+                    <ul>
+                      <li>
+                        Colour Shown: Medium Brown/Mushroom/Muslin/Mint Foam
+                      </li>
+                      <li>
+                        Style: FD5088-200
+                      </li>
+                      <li>
+                        Casual flair 101: Hemp canvas,
+                      </li>
+                    </ul>
+                  </div>
+          
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-danger" data-bs-dismiss="modal"><i class="bi bi-heart"></i></button>
+                    <button type="button" class="btn btn-primary"><i class="bi bi-cart-plus me-1"></i>Add to Cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Nike</h5>
+            <p class="card-text">Price:5000</p>
+            <a href="#" class="btn btn-primary "><i class="bi bi-cart-plus me-1"></i>Add to Cart</a>
+      <a href="#" class="btn btn-success ms-5 ">Buy Now</a>
+          </div>
+        </div>
       </div>
       
       
+     
+     <!-- cards-end -->
      </div>
      <!--Offcanvas cart  -->
 
