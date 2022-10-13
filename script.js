@@ -1,2 +1,2 @@
 
-const carousel = new bootstrap.Carousel('#myCarousel')
+const carousel = new bootstrap.Carousel('#carouselmain')
