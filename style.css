@@ -1,5 +1,5 @@
-/* @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"); */
-/* .bi::before {
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+ .bi::before {
     display: inline-block;
     content: "";
     vertical-align: -.125em;
@@ -7,13 +7,8 @@
     background-repeat: no-repeat;
     background-size: 1rem 1rem;
   }
-  /* .card-title,.card-text{ */
-/* color: #000; */
-/* } */
+  
 .card-img-top {
   height: 325px;
 }
 
-#carouselmain {
-  margin-top: 85px;
-}
